@@ -2,4 +2,5 @@ project: jsyn
 target: jsyn
 
 cmds:
+  - cmd: java -Xmx64m -Xms64m -Dorg.gradle.appname=gradlew -classpath gradle/wrapper/gradle-wrapper.jar org.gradle.wrapper.GradleWrapperMain
   - cmd: java -Xmx64m -Xms64m -Dorg.gradle.appname=gradlew -classpath gradle/wrapper/gradle-wrapper.jar org.gradle.wrapper.GradleWrapperMain @@
